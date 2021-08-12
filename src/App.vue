@@ -12,6 +12,7 @@
 import Header from './components/Header.vue'
 import CentralBlock from './components/CentralBlock.vue'
 import QuestionBlock from './components/QuestionBlock.vue'
+
 export default {
   name: 'App',
   components: {
@@ -29,8 +30,17 @@ export default {
 </script>
 
 <style lang='sass'>
+@font-face
+    font-family: "Roboto"
+    src: local("Roboto"), url(./assets/fonts/Roboto-Light.ttf) format("truetype")
+@font-face
+    font-family: "Roboto-Regular"
+    src: local("Roboto-Regular"), url(./assets/fonts/Roboto-Regular.ttf) format("truetype")
+@font-face
+    font-family: "BadScript"
+    src: local("BadScript"), url(./assets/fonts/BadScript.ttf) format("truetype")
 .page-wrapper 
-  width: 100%
+  min-width: 100%
   height: 100%
 .shine-bg
   background: url('./assets/img/blik-crop.png')
