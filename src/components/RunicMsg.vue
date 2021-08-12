@@ -41,10 +41,12 @@ export default {
     width: 100%
     top: 0
     display: flex
-    padding: 50px
 .eye 
     justify-content: flex-end
 .planet
     justify-content: flex-start
+.planet-img 
+    height: 50px 
+    width: 50px
 
 </style>

@@ -9,9 +9,9 @@
                 Вас беспокоит вопрос о том, <br/> КОГДА ВЫ ПОКИНЕТЕ ЭТОТ МИР И ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ?
             </p>
         </div>
-        <div class="button-block">
-            <button class="button-block__btn">Да</button>
-            <button class="button-block__btn">Нет</button>
+        <div class="control-block">
+            <button class="btn btn-yellow">Да</button>
+            <button class="btn btn-yellow">Нет</button>
         </div>
         <p class="detail-text">Онлайн-предсказание</p>
         
@@ -29,7 +29,7 @@
 </template>
 
 <style lang='sass'>
-.center-block, .circle, .button-block, .text-wrap, .meditation, .dimmer
+.center-block, .circle, .control-block, .text-wrap, .meditation, .dimmer
     font-family: 'Roboto'
     display: flex
     flex-direction: column
@@ -65,23 +65,8 @@
 
 .text-yellow
     color: #F6C866
-    font-weight: 500
-.button-block__btn
-    margin-top: 34px
-    width: 310px
-    height: 70px    
-    background-image: linear-gradient(45deg, #F09819 0%, #EDDE5D  21%, #FEAD35 40%, #FEAD35  100%)
-    outline: none
-    border: none
-    color: #fff
-    font-family: 'Roboto-Regular'
-    font-size: 20px
-    font-weight: 400
-    border-radius: 35px
-    &:hover    
-        background-image: linear-gradient(45deg, #F09819 0%, #EDDE5D  71%, #FEAD35 100%)
-        color: #fff
-        text-decoration: none
+    font-weight: 500  
+    
 
 .detail-text 
     margin-top: 34px

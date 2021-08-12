@@ -6,12 +6,7 @@
 </template>
 
 <style lang="sass" scoped>
-@font-face
-    font-family: "Roboto"
-    src: local("Roboto"), url(../assets/fonts/Roboto-Light.ttf) format("truetype")
-@font-face
-    font-family: "Roboto-Regular"
-    src: local("Roboto"), url(../assets/fonts/Roboto-Regular.ttf) format("truetype")
+
 .page-header
     height: 100px
     width: 100%

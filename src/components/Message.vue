@@ -1,0 +1,55 @@
+<template>
+<div class="bubble-block">
+    <div class="bubble bubble-bottom-left"><p class="bubble-text">{{ text }}</p></div>
+</div>
+</template>
+
+<script>
+
+export default {
+    name: 'Message',
+    props: {
+        text: {
+            type: String
+        }
+    }
+}
+</script>
+
+
+
+<style lang='sass'>
+.bubble-block
+    margin-top: 70px
+
+.bubble 
+    margin: auto
+    position: relative
+    font-family: sans-serif
+    font-size: 18px
+    line-height: 24px    
+    max-width: 100%
+    background: #fff
+    border-radius: 40px
+    padding: 24px
+    text-align: center
+    color: #000
+
+.bubble-bottom-left:before 
+    content: ""
+    width: 0px
+    height: 0px
+    position: absolute
+    border-left: 24px solid #fff
+    border-right: 12px solid transparent
+    border-top: 12px solid #fff
+    border-bottom: 20px solid transparent
+    left: 32px
+    bottom: -24px
+
+.bubble-text 
+    font-family: 'BadScript'
+    font-size: 14px 
+    line-height: 20px
+
+</style>
