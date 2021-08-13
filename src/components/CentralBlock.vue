@@ -79,8 +79,9 @@
     border-radius: 50%
     position: relative
     top: -50px
+
 .text-wrap 
-    margin-top: 80px
+    margin-top: 100px
     width: 442px
     height: 442px
     max-width: 90%

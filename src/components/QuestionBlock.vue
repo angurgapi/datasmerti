@@ -204,6 +204,7 @@ export default {
     background-position: right 20px center, right bottom, right bottom, right bottom 
     background-color: #E5E5E5
     color: #000
+
 .error-select
     border: 2px solid red
 
