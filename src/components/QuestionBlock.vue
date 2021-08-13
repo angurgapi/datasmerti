@@ -175,7 +175,6 @@ export default {
     justify-content: center
 .question-text 
     color: #F6C866
-    width: 500px
     max-width: 80%
     text-transform: uppercase
     text-align: center

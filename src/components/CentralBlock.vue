@@ -101,8 +101,7 @@
     p
         width: 380px
         max-width: 80%
-    @media(max-width: 600px)
-        width: 100vw
+
 
 .dimmer 
     background: rgba(0,0,0,.7)

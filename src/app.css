@@ -6,6 +6,9 @@ body {
     background-color: #202024;
     min-width: 100%;
 }
+#app {
+    min-width: 100%;
+}
 
 .btn {
     margin-top: 34px;
