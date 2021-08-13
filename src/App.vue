@@ -3,6 +3,7 @@
   <Header />
   <CentralBlock />
   <QuestionBlock />
+  <Footer />
   <div class="shine-bg"></div>
 </div>
 </template>
@@ -12,13 +13,15 @@
 import Header from './components/Header.vue'
 import CentralBlock from './components/CentralBlock.vue'
 import QuestionBlock from './components/QuestionBlock.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     CentralBlock,
-    QuestionBlock
+    QuestionBlock,
+    Footer
   },
   data(){
     return {
